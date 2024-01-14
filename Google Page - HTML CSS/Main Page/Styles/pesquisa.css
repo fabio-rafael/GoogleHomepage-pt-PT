@@ -1,0 +1,60 @@
+.pesquisa{
+  height:50px ;
+  margin-top:18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.procura:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-color: #dfdddd
+}
+
+.sorte:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-color: #dfdddd
+}
+
+.procura{
+  
+  background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    margin-right:8px;
+    
+    
+}
+
+.sorte{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  
+  
+}
+
+.space{
+  display: flex; 
+  height: 400px;
+}

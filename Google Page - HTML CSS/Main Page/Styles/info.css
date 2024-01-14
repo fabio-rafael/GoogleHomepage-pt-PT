@@ -1,0 +1,67 @@
+.info {
+  background-color: rgb(240, 240, 241);
+  display: grid;
+  grid-template-columns: 99px 71px 119px 168px 957px 200px 1fr 1fr;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #202124;
+  height: 46px;
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
+  padding: 3px; 
+  justify-self: space-between;
+}
+
+
+.Sobre:hover{
+  text-decoration: underline;
+}
+
+.Publicidade:hover{
+  text-decoration: underline;
+}
+
+.Negócios:hover{
+  text-decoration: underline;
+}
+
+.Como-f:hover{
+  text-decoration: underline;
+}
+
+.Sustentabilidade:hover{
+  text-decoration: underline;
+}
+
+.folha{
+  height: 14px;
+  width: 13px;
+  margin-right: 5px;
+  margin-bottom: 1px;
+}
+
+.Privacidade:hover{
+  text-decoration: underline;
+}
+
+.Termos:hover{
+  text-decoration: underline;
+}
+
+.Definições:hover{
+  text-decoration: underline;
+}
+
+
+.info > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Privacidade:hover > div,
+.Termos:hover > div,
+.Definições:hover > div {
+  margin-left: auto;
+  justify-self: end;
+}
